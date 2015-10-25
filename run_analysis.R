@@ -8,6 +8,8 @@
 # downloaded the UCI HAR Dataset and is using that as his/her working directory and has 
 # installed all the required packages.
 
+library(plyr)
+
 # Step 1: Merges the training and the test sets to create one large data set.
 
 x_train <- read.table("train/X_train.txt")
